@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 10xp;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 55px;
+}
+
+header nav{
+    
+    display:flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    background-color: rgb(255, 255, 255);
+    /* Eliminar viñetas */
+    list-style: none;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Altura automatica */
+    height: auto;
+}
+
+nav .nav-right-section a{
+    color:rgb(53, 53, 53);
+    /* Subrayada */
+    text-decoration: none;
+    /* Margen derecho */
+    margin-right: 25px;
+}
+
+nav .nav-right-section .menu{
+    background-image:url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    /* Contiene a la imagen */
+    background-size: contain;
+}
+
+nav .nav-right-section .profile{
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+/* Main */
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+
+main .image{
+    display: flex;
+    width: 100px;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+main .main-input{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    width: 500px;
+    border-radius: 100px;
+    border: 1px solid rgb(230, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 rgb(111, 111, 111);
+}
+
+main .main-input .search-icon{
+    background-image: url(/images/busqueda\ \(1\).png);
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+main .main-input .micro-icon{
+    background-image: url(/images/microfono-google.png);
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+}
+
+main .main-input .cam-icon{
+    background-image: url(/images/camara.png);
+    background-position: center;
+    background-size: contain;
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+/* Botones */
+main .buttons{
+    background-color: rgb(255, 255, 255);
+    background-size: contain;    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+main .search-button{
+    margin-right: 20px;
+    border-radius: 5px;
+    border-color: none;
+    border-width: 0;
+    color: rgb(84, 84, 84);
+    font-size: 15px;
+    width: 150px;
+}
+/* Sombra */
+main .search-button:hover{
+    box-shadow: 1px 1px 1px 0  #6f6f6f47;
+}
+
+main .lucky-button{
+    height: 35px;
+    border-radius: 5px;
+    border-color: none;
+    border-width: 0;
+    color: rgb(84, 84, 84);
+    font-size: 15px;
+    width: 150px;
+}
+/* Sombra */
+main .lucky-button:hover{
+    box-shadow: 1px 1px 1px 0  #6f6f6f47;
+}
+
+/* PIE DE PAGINA */
+
+footer{
+    margin-top: 245px;
+    background-color: rgba(90, 92, 91, 0.125);
+    color: rgb(81, 81, 81);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 16px;
+}
+
+footer .mex{
+    margin-left: 30px;
+    display: inline-block;
+    align-items: center;
+    font-size: 17px;
+}
+
+footer ul{
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    padding-left:0;
+
+}
+
+.footer-left {
+    display: flex;
+    justify-content: left;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: right;
+    
+}
+
+footer ul li a {
+    margin: 20px;
+    color: #5f6368;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
